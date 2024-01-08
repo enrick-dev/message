@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #f6f6f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #0B0B0B;
+  color: #f6f6f6;
+  padding: 0 20px;
+}
+
+.typewrite {
+  display: flex;
+  text-align: center;
+  width: 100% !important;
+  justify-content: center;
+}
+
+.typewrite>span {
+  text-align: center;
+}
+
+.typewrite>.wrap {
+  color: #f6f6f6;
+  font-family: 'Swanky and Moo Moo', cursive;
+  text-align: center;
+  font-weight: 300;
+}
+
+.assinatura {
+  position: absolute;
+  font-family: 'Caveat', cursive;
+  bottom: 24px;
+  right: 30px;
+  font-size: 28px;
+}
